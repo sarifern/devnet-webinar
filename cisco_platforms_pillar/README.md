@@ -97,7 +97,10 @@ zeep==4.0.0
 
 La demo ocupa la clase base *CUCMConnectorAXL.py* para crear una conexión vía SOAP con nuestro CUCM. Puedes encontrar más información de esta clase en https://github.com/ponchotitlan/CUCM-AXL-Connector-class
 
-Así mismo, esta clase está siendo heredada por una clase llamada *JabberCreator.py* para el propósito de esta demo. Esta última clase está siendo ocupada en el script *cucm_provisioning_teams_notification.py* para provisionar nuestros teléfonos Jabber. 
+Así mismo, esta clase está siendo heredada por una clase llamada *JabberCreator.py* para el propósito de esta demo. Los campos de la especificación AXL pueden consultarse en la siguiente liga:
+https://developer.cisco.com/docs/axl-schema-reference/
+
+Esta clase está siendo ocupada en el script *cucm_provisioning_teams_notification.py* para provisionar nuestros teléfonos Jabber. 
 
 Lo único que necesitamos cambiar en este último archivo son las tres variables al principio del mismo:
 

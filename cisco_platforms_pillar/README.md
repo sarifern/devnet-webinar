@@ -95,7 +95,7 @@ zeep==4.0.0
 
 ### 5. Especificar los detalles del servidor de CUCM a configurar
 
-La demo ocupa la clase base *CUCMConnectorAXL.py* para crear una conexión vía SOAP con nuestro CUCM. Puedes encontrar más información de esta clase en https://https://github.com/ponchotitlan/CUCM-AXL-Connector-class
+La demo ocupa la clase base *CUCMConnectorAXL.py* para crear una conexión vía SOAP con nuestro CUCM. Puedes encontrar más información de esta clase en https://github.com/ponchotitlan/CUCM-AXL-Connector-class
 
 Así mismo, esta clase está siendo heredada por una clase llamada *JabberCreator.py* para el propósito de esta demo. Esta última clase está siendo ocupada en el script *cucm_provisioning_teams_notification.py* para provisionar nuestros teléfonos Jabber. 
 

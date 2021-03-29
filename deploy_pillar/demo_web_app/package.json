@@ -1,0 +1,13 @@
+{
+    "name": "demo_web_app",
+    "version": "1.0.0",
+    "description": "Demo de despliegue de un contenedor con una app web basada en Nodejs",
+    "author": "Alfonso Sandoval (alfsando@cisco.com)",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1"
+    }
+  }

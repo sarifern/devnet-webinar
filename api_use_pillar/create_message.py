@@ -14,10 +14,10 @@ r = requests.post(
     "https://webexapis.com/v1/messages",
     data=json.dumps(m),
     headers={
-        "Authorization": "Bearer {}".format(ACCESS_TOKEN),
+        "Authorization": "Bearer 111{}".format(ACCESS_TOKEN),
         "Content-Type": "application/json",
     },
 )
-print(r.text)
+print(r.status_code)
 
 

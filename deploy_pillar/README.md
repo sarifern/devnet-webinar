@@ -35,7 +35,7 @@ RUN npm install
 #Copia de todo el contenido de nuestra carpeta demo_web_app a nuestro directorio destino
 COPY demo_web_app/. .
 
-#Habilitación del puerto 8080 para que se pueda acceder a nuestra web app
+#Habilitación del puerto 8080 a nivel inter-container
 EXPOSE 8080
 
 #Ejecución de la web app
